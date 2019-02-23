@@ -1,0 +1,10 @@
+#SELECT * FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population`
+#SELECT * FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` WHERE country_code="UZB"
+#ORDER BY value DESC
+#SELECT AVG(value) FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population`
+#SELECT Count(distinct(Country_name)) FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population`
+#SELECT MAX(Value) FROM  `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
+#SELECT country_name="Uzebekistan" FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population`
+#SELECT indicator_name, COUNT (*) FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population`GROUP BY indicator_name
+#SELECT value, COUNT (*) FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` GROUP BY value HAVING COUNT (*) > 5
+SELECT country_code="UZB" FROM `bigquery-public-data.world_bank_health_population.health_nutrition_population` 
